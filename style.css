@@ -1,0 +1,43 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box ;
+
+}
+body {
+  display: flex;
+  justify-content:center ;
+  align-items:center ;
+  height: 100vh;
+}
+
+  img{
+    width:100%;
+  }
+	
+  @media (max-width: 768px) {
+		.login {
+      min-height: 100%;
+    }
+    h3 {
+      text-align: center;
+    }
+    .container {
+      padding: 0;
+    }    
+  }
+
+  .container-fluid {
+    padding: 0;
+  }
+
+  body {
+    font-family: "Catamaran";
+    background: #f2f9ff;
+  }
+
+  html, body, .container-fluid, .no-gutter {
+    margin: auto;
+    height: 100%;
+  }
+
